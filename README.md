@@ -1,8 +1,6 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/aws.svg" width="100" alt="AWS Icon"/>
-
 # 🤖 E-Commerce Customer Support AI Chatbot
 
 ### ✨ Enterprise-Grade AWS-Native AI Solution with RAG | Built for Scale & Learning
