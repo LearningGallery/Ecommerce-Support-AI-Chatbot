@@ -1,0 +1,14 @@
+flowchart LR
+    User[User Browser] --> CF[CloudFront]
+    CF --> FEALB[Frontend ALB]
+    CF --> BEALB[Backend ALB]
+
+    FEALB --> FE[ECS Fargate Frontend]
+    BEALB --> BE[ECS Fargate Backend]
+
+    BE --> BR[Amazon Bedrock]
+    BE --> OS[OpenSearch]
+    BE --> DDB[DynamoDB]
+    BE --> S3[S3]
+    BE --> CW[CloudWatch]
+    BE --> SM[Secrets Manager]

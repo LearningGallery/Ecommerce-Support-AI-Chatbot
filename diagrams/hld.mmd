@@ -1,0 +1,8 @@
+flowchart TB
+    Users[Users] --> CloudFront[CloudFront]
+    CloudFront --> Frontend[Frontend on ECS]
+    CloudFront --> Backend[Backend on ECS]
+    Backend --> Bedrock[Amazon Bedrock]
+    Backend --> OpenSearch[OpenSearch]
+    Backend --> DynamoDB[DynamoDB]
+    Backend --> S3[S3]

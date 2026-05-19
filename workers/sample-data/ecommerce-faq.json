@@ -1,0 +1,72 @@
+[
+  {
+    "id": "faq-001",
+    "title": "Shipping Policy",
+    "category": "Shipping",
+    "content": "We offer free standard shipping on orders over $50. Standard shipping takes 5-7 business days. Express shipping, which takes 2-3 business days, is available for $15. Overnight shipping costs $25. All orders are processed within 1-2 business days. You will receive a tracking number once your order ships.",
+    "source": "shipping_policy"
+  },
+  {
+    "id": "faq-002",
+    "title": "Return Policy",
+    "category": "Returns",
+    "content": "We accept returns within 30 days of delivery. Items must be unused and in original packaging. To initiate a return, contact our support team with your order number. Refunds are processed within 5-7 business days after we receive the returned item. Return shipping is free for defective items. Otherwise, the customer pays return shipping.",
+    "source": "return_policy"
+  },
+  {
+    "id": "faq-003",
+    "title": "Payment Methods",
+    "category": "Payment",
+    "content": "We accept all major credit cards including Visa, Mastercard, American Express, and Discover. We also accept PayPal, Apple Pay, and Google Pay. All transactions are encrypted and secure. We do not store your credit card information on our servers.",
+    "source": "payment_policy"
+  },
+  {
+    "id": "faq-004",
+    "title": "Order Tracking",
+    "category": "Orders",
+    "content": "Once your order ships, you will receive an email with a tracking number. You can track your order by entering the tracking number on our website or on the carrier's website. Tracking information is updated every 24 hours. If you have questions about your order status, please contact our support team.",
+    "source": "order_tracking"
+  },
+  {
+    "id": "faq-005",
+    "title": "Cancellation Policy",
+    "category": "Orders",
+    "content": "You can cancel your order within 24 hours of placing it. After 24 hours, orders cannot be cancelled as they may have already been shipped. To cancel an order, contact our support team immediately with your order number. Refunds for cancelled orders are processed within 3-5 business days.",
+    "source": "cancellation_policy"
+  },
+  {
+    "id": "faq-006",
+    "title": "Product Warranty",
+    "category": "Products",
+    "content": "All products come with a 1-year manufacturer warranty. The warranty covers defects in materials and workmanship. It does not cover damage from misuse, accidents, or normal wear and tear. To make a warranty claim, contact our support team with your order number and photos of the defect.",
+    "source": "warranty_policy"
+  },
+  {
+    "id": "faq-007",
+    "title": "International Shipping",
+    "category": "Shipping",
+    "content": "We ship to over 50 countries worldwide. International shipping costs vary by destination and are calculated at checkout. Delivery times range from 7-21 business days depending on location. Customers are responsible for any customs duties or import taxes. International orders cannot be expedited.",
+    "source": "international_shipping"
+  },
+  {
+    "id": "faq-008",
+    "title": "Account Creation",
+    "category": "Account",
+    "content": "Creating an account allows you to track orders, save addresses, and check out faster. To create an account, click Sign Up and enter your email and password. You can also sign up using Google or Facebook. Your information is secure and we never share your data with third parties.",
+    "source": "account_policy"
+  },
+  {
+    "id": "faq-009",
+    "title": "Gift Cards",
+    "category": "Payment",
+    "content": "We offer digital gift cards in amounts from $25 to $500. Gift cards are delivered via email and never expire. They can be used for any purchase on our website. Gift cards cannot be redeemed for cash and are non-refundable. Check your gift card balance in your account dashboard.",
+    "source": "gift_card_policy"
+  },
+  {
+    "id": "faq-010",
+    "title": "Price Match Guarantee",
+    "category": "Pricing",
+    "content": "We offer a price match guarantee on identical items from authorized retailers. Submit a price match request within 7 days of purchase with proof of the lower price. Price matches are not valid on clearance items, promotional prices, or third-party marketplace sellers. Approved price matches are refunded as store credit.",
+    "source": "price_match_policy"
+  }
+]

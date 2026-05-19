@@ -1,0 +1,9 @@
+flowchart TD
+    Q[User Question] --> S[Sanitize Input]
+    S --> R[Retrieve Documents from OpenSearch]
+    R --> C[Build Context]
+    C --> P[Construct Prompt]
+    P --> L[Invoke Bedrock]
+    L --> A[Answer]
+    A --> X[Attach Citations]
+    X --> U[Return to User]

@@ -1,0 +1,23 @@
+flowchart TB
+    subgraph VPC
+        subgraph PublicSubnets
+            FEALB[Frontend ALB]
+            BEALB[Backend ALB]
+            NAT[NAT Gateway]
+        end
+
+        subgraph PrivateSubnets
+            FE[ECS Frontend Tasks]
+            BE[ECS Backend Tasks]
+            OS[OpenSearch Domain]
+        end
+    end
+
+    Internet[Internet] --> FEALB
+    Internet --> BEALB
+    FEALB --> FE
+    BEALB --> BE
+    BE --> OS
+    BE --> DDB[DynamoDB]
+    BE --> S3[S3]
+    BE --> BR[Bedrock]

@@ -1,0 +1,9 @@
+flowchart TD
+    Dev[Developer] --> TF[Terraform Apply]
+    TF --> AWS[AWS Infrastructure]
+    Dev --> Docker[Build Docker Images]
+    Docker --> ECR[Push to ECR]
+    ECR --> ECS[Update ECS Services]
+    ECS --> HC[Run Health Checks]
+    HC --> Load[Load FAQ Data]
+    Load --> Ready[Application Ready]

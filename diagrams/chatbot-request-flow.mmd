@@ -1,0 +1,18 @@
+sequenceDiagram
+    participant U as User
+    participant F as Frontend
+    participant B as Backend
+    participant D as DynamoDB
+    participant O as OpenSearch
+    participant L as Bedrock
+
+    U->>F: Enter message
+    F->>B: POST /api/v1/chat
+    B->>D: Load/create session
+    B->>O: Retrieve relevant FAQ docs
+    O-->>B: Top documents
+    B->>L: Send prompt with context
+    L-->>B: Generated answer
+    B->>D: Save conversation
+    B-->>F: Response + citations
+    F-->>U: Render answer
